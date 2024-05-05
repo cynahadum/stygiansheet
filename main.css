@@ -1,36 +1,36 @@
-ch-acc {
+.ch-acc {
   color: var(--accent);
 }
 
-ch-skew {
+.ch-skew {
   transform: skew(10deg, 10deg);
 }
 
-ch-distort {
-  filter: url("../main.html/#distort");
+.ch-distort {
+  filter: url("main.html#distort");
 }
 
-ch-tilt-move-shake-1 {
+.ch-tilt-move-shake-1 {
   animation: tilt-n-move-shaking 0.25s infinite;
 }
 
-ch-tilt-move-shake-2 {
+.ch-tilt-move-shake-2 {
   animation: tilt-n-move-shaking 0.15s infinite;
 }
 
-ch-tilt-shake-1 {
+.ch-tilt-shake-1 {
   animation: tilt-shaking 0.25s infinite;
 }
 
-ch-tilt-shake-2 {
+.ch-tilt-shake-2 {
   animation: tilt-shaking 0.15s infinite;
 }
 
-ch-vert-shake {
+.ch-vert-shake {
   animation: vertical-shaking 0.35s infinite;
 }
 
-ch-horz-shake {
+.ch-horz-shake {
   animation: horizontal-shaking 0.35s infinite;
 }
 
