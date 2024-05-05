@@ -1,3 +1,67 @@
-.acc {
+ch-acc {
   color: var(--accent);
+}
+
+ch-skew {
+  transform: skew(10deg, 10deg);
+}
+
+ch-distort {
+  filter: url("../main.html/#distort");
+}
+
+ch-tilt-move-shake-1 {
+  animation: tilt-n-move-shaking 0.25s infinite;
+}
+
+ch-tilt-move-shake-2 {
+  animation: tilt-n-move-shaking 0.15s infinite;
+}
+
+ch-tilt-shake-1 {
+  animation: tilt-shaking 0.25s infinite;
+}
+
+ch-tilt-shake-2 {
+  animation: tilt-shaking 0.15s infinite;
+}
+
+ch-vert-shake {
+  animation: vertical-shaking 0.35s infinite;
+}
+
+ch-horz-shake {
+  animation: horizontal-shaking 0.35s infinite;
+}
+
+@keyframes tilt-shaking {
+  0% { transform: rotate(0deg); }
+  25% { transform: rotate(5deg); }
+  50% { transform: rotate(0eg); }
+  75% { transform: rotate(-5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes tilt-n-move-shaking {
+  0% { transform: translate(0, 0) rotate(0deg); }
+  25% { transform: translate(5px, 5px) rotate(5deg); }
+  50% { transform: translate(0, 0) rotate(0eg); }
+  75% { transform: translate(-5px, 5px) rotate(-5deg); }
+  100% { transform: translate(0, 0) rotate(0deg); }
+}
+
+@keyframes horizontal-shaking {
+ 0% { transform: translateX(0) }
+ 25% { transform: translateX(5px) }
+ 50% { transform: translateX(-5px) }
+ 75% { transform: translateX(5px) }
+ 100% { transform: translateX(0) }
+}
+
+@keyframes vertical-shaking {
+ 0% { transform: translateX(0) }
+ 25% { transform: translateX(5px) }
+ 50% { transform: translateX(-5px) }
+ 75% { transform: translateX(5px) }
+ 100% { transform: translateX(0) }
 }
