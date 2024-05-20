@@ -23,6 +23,13 @@
   padding-left: 80px;
 }
 
+.ch-bar {
+  border-left: 1px solid var(--accent);
+  height: 25px;
+  margin: 30px auto;
+  width: 0px;
+}
+
 .ch-tilt-move-shake-1 {
   animation: ch-tilt-move-shake 0.25s infinite;
 }
