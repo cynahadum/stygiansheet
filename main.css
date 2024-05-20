@@ -18,6 +18,11 @@
     </svg>#ch-distort');
 }
 
+.ch-right {
+  text-align: right;
+  padding-left: 80px;
+}
+
 .ch-tilt-move-shake-1 {
   animation: ch-tilt-move-shake 0.25s infinite;
 }
