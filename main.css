@@ -30,6 +30,11 @@
   width: 0px;
 }
 
+.ch-wavy-ul {
+  text-decoration: var(--accent) wavy underline; 
+  text-underline-offset: 4px;
+}
+
 .ch-tilt-move-shake-1 {
   animation: ch-tilt-move-shake 0.25s infinite;
 }
