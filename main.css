@@ -87,6 +87,71 @@
   animation: ch-txt-shadow 1.6s infinite;
 }
 
+div.empathy.aisling header { 
+  background-image: url("https://i.ibb.co/dk2SDwd/clouds-short.png"); 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  padding-bottom: 150px; 
+  margin-bottom: -150px; 
+  border-radius: 20px 20px 0px 0px; 
+} 
+
+div.empathy.aisling h1 { 
+  color: white; 
+  padding-bottom: 10px; 
+} 
+
+div.empathy.aisling span.ch-header { 
+  font-size: 12px; 
+  margin-top: -100px; 
+} 
+
+div.empathy.aisling footer { 
+  background-image: url('https://i.imgur.com/k8d2f0w.jpg'); 
+  background-repeat: no-repeat;  
+  background-size: cover; 
+} 
+
+div.empathy.aisling footer center { 
+  color: white; 
+  background-color: black; 
+} 
+
+div.empathy.aisling h1::after { 
+  box-shadow: none; 
+} 
+
+div.empathy.aisling img { 
+  display: block; 
+  width: 50%; 
+  height: 50%; 
+  margin-left: auto; 
+  margin-right: auto; 
+  margin-top: 10px; 
+} 
+
+div.empathy.aisling tag::before { 
+  content: '#';
+} 
+
+div.empathy.aisling tag { 
+  text-transform: uppercase; 
+  text-align: center; 
+  font-size: 10px; 
+} 
+
+div.empathy.aisling a { 
+  color: var(--fontBody); 
+} 
+
+div.empathy.aisling post { 
+  padding-bottom: 20px; 
+} 
+
+div.empathy.aisling span.ch-first { 
+  text-shadow:1px 1px 2px white; 
+}
+
 @keyframes ch-tilt-shake {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(5deg); }
