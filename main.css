@@ -35,6 +35,13 @@
   text-underline-offset: 4px;
 }
 
+.ch-highlight {
+  background-color: var(--darkest);
+  color: var(--lightest);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
 .ch-tilt-move-shake-1 {
   animation: ch-tilt-move-shake 0.25s infinite;
 }
