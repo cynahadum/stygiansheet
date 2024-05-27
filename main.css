@@ -162,6 +162,24 @@ div.empathy.aisling span.ch-first {
   text-shadow:1px 1px 2px white; 
 }
 
+ddiv.evening.summer post { 
+  z-index: 9; 
+  transform: rotate(3deg); 
+} 
+
+div.evening.summer::before { 
+  z-index: 10; 
+  transform: rotate(-3deg); 
+  background-image: url('https://i.ibb.co/6XQbCH9/summerlove.png'); 
+} 
+
+div.evening.summer::after { 
+  z-index: 9; 
+  transform: rotate(3deg); 
+  background-image: url('https://i.ibb.co/6XQbCH9/summerlove.png'); 
+  background-size: cover; 
+} 
+
 @keyframes ch-tilt-shake {
   0% { transform: rotate(0deg); }
   25% { transform: rotate(5deg); }
